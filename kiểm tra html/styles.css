@@ -1,0 +1,25 @@
+body{
+    background-color:#FFFFFF;
+   
+}
+header{
+    background-color: #C0392B;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+header span{
+    color:#FFFFFF;
+    font:inter;
+    font-style: bold;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing:0% ;
+    vertical-align:middle ;
+}
+nav a{
+    color:#FFFFFF
+    font
+    
+
+}

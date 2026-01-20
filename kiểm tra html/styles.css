@@ -1,25 +1,147 @@
-body{
-    background-color:#FFFFFF;
-   
+
+
+
+body {
+    background: #FFFFFF;
 }
-header{
-    background-color: #C0392B;
+
+
+header {
+    background: #c0392b;
+    color: white;
+    padding: 15px 60px;
+
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    align-items: center;
 }
-header span{
-    color:#FFFFFF;
-    font:inter;
-    font-style: bold;
-    font-size: 28px;
-    line-height: 100%;
-    letter-spacing:0% ;
-    vertical-align:middle ;
-}
-nav a{
-    color:#FFFFFF
-    font
-    
 
+.span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+.banner {
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.banner-text {
+    width: 50%;
+}
+
+.banner-text h2 {
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.menu-section {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+}
+
+
+.menu {
+   
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.card {
+    width: 32%;
+    border: 2px solid rgb(217, 203, 198);
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-text,
+    .banner-img {
+        width: 100%;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
 }
